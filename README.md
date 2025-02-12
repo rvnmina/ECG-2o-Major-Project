@@ -52,3 +52,27 @@ The ECG2o system is built upon a modular design comprising the following compone
 
 **Arduino Integration:**  
   A dedicated Arduino module is used to interface with the custom hardware for signal acquisition. Sample outputs and real-time results from the Arduino are displayed below.
+
+
+**Team & Acknowledgements**
+This project was realized through the collaborative efforts of four dedicated students with expertise in biomedical engineering, computer science, and electronics. We are immensely grateful to Professor for his invaluable guidance and support throughout the project.
+
+
+**Future Directions**
+ECG2o is an evolving platform with planned enhancements including:
+1.**Integration of Additional Classifiers:** To further boost diagnostic accuracy.
+2.**Expanded Real-Time Processing:** For broader clinical applications.
+3.**Adaptation for Wearable Technology:** Enabling continuous, ambulatory monitoring.
+4.**Open Source Contributions:** Welcoming community involvement and collaborative research.
+
+
+**How to Run ECG2o
+1. **Hardware Setup:**  
+   Connect the ECG electrodes to the custom Arduino interface as per the provided circuit diagram in the `hardware/` folder.
+2. **Software Execution:**  
+   - Run `signal_acquisition.py` to start capturing ECG data.
+   - Execute the MATLAB scripts in `preprocessing_pipeline.m` for signal cleaning and feature extraction.
+   - Train and test the machine learning classifier using `classification_model.py`.
+3. **Real-Time Monitoring:**  
+   Launch the monitoring dashboard by running the integrated real-time module.
+
