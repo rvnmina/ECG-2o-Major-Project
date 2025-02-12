@@ -1,6 +1,5 @@
 **ECG2o – Advanced ECG Signal Processing and Analysis**
 
-![ECG2o Banner](./images/banner.png)
 
 **Overview**
 **ECG2o** represents the culmination of our Bachelor’s capstone project. Developed by a team of four under the expert mentorship of Professor [Teacher’s Name], this project advances electrocardiogram (ECG) signal processing through state‑of‑the‑art noise suppression, feature extraction, and classification techniques. Designed with both clinical accuracy and real‑time applicability in mind, ECG2o aspires to contribute meaningfully to cardiac diagnostics and patient monitoring.
@@ -53,24 +52,3 @@ The ECG2o system is built upon a modular design comprising the following compone
 
 **Arduino Integration:**  
   A dedicated Arduino module is used to interface with the custom hardware for signal acquisition. Sample outputs and real-time results from the Arduino are displayed below.
-
-
-
-**Demo & Results**
-**Arduino Results & Outputs**
-Below are some images and output screenshots captured during our hardware testing phase:
-
- **ECG Signal Acquisition via Arduino:**  
-  ![Arduino ECG Signal](./images/arduino_ecg_signal.png)  
-  *Figure 1: Raw ECG signal captured using Arduino and high-fidelity electrodes.*
-
- **Processed ECG Waveform Output:**  
-  ![Processed ECG Output](./images/processed_ecg_output.png)  
-  *Figure 2: Processed ECG signal showing noise suppression and clear PQRST complexes.*
-
- **Real-Time Monitoring Interface:**  
-  ![Real-Time Monitoring](./images/real_time_monitoring.png)  
-  *Figure 3: Screenshot of the real-time ECG monitoring dashboard.*
-
-
-
