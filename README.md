@@ -1,4 +1,4 @@
-ECG2o is an innovative project developed by a team of four under the mentorship of Professor [Teacher’s Name]. It is designed to revolutionize cardiac diagnostics by integrating cutting-edge digital signal processing techniques, robust machine learning algorithms, and real-time cloud connectivity. This system processes raw ECG data acquired from an Arduino-ESP8266 module, enabling precise detection and classification of arrhythmic events.
+ECG2o is an innovative project developed by a team of four under the mentorship of Professor. It is designed to revolutionize cardiac diagnostics by integrating cutting-edge digital signal processing techniques, robust machine learning algorithms, and real-time cloud connectivity. This system processes raw ECG data acquired from an Arduino-ESP8266 module, enabling precise detection and classification of arrhythmic events.
 
 
 **Project Overview**
