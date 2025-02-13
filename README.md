@@ -61,8 +61,25 @@ ECG2o is an innovative project developed by a team of four under the mentorship 
 
 **·** Deploy the React.js dashboard to visualize real-time outputs.
 
+
+
 **4. Customization:**
 
 **·** Modify the processing parameters to suit different noise levels and signal conditions.
 
-**·**Extend the machine learning models to incorporate additional diagnostic features.
+**·** Extend the machine learning models to incorporate additional diagnostic features.
+
+
+**5. Visualization:**
+
+**·** **React.js Dashboard:** Provides a real-time, interactive display of the processed ECG data and diagnostic metrics.
+
+
+****How to Run****
+
+Clone this repository. Open the Arduino IDE. Install necessary libraries. Configure the code with your credentials. Upload the code to your ESP8266 board. Monitor the serial console for connection status.
+
+**Ubidots Configuration**
+
+**Create a Ubidots account:** Ubidots Sign Up Obtain your Ubidots token and set up variab
+
