@@ -15,24 +15,41 @@ ECG2o is an innovative project developed by a team of four under the mentorship 
 **Technical Architecture**
 
 **1.Data Acquisition:**
-Utilizes an Arduino-ESP8266 module to capture raw ECG signals.
-Transmits the data wirelessly to a cloud storage solution (Firebase) for real-time processing.
+· Utilizes an Arduino-ESP8266 module to capture raw ECG signals.
+· Transmits the data wirelessly to a cloud storage solution (Firebase) for real-time processing.
 
 **2.Preprocessing:**
-Implements state-of-the-art filtering techniques and wavelet-based noise reduction to enhance signal quality.
+· Implements state-of-the-art filtering techniques and wavelet-based noise reduction to enhance signal quality.
 
 **3.Feature Extraction & Classification:**
-Extracts key ECG features (e.g., QRS complex, R-peaks).
-Applies machine learning models to accurately classify various arrhythmic conditions.
+· Extracts key ECG features (e.g., QRS complex, R-peaks).
+· Applies machine learning models to accurately classify various arrhythmic conditions.
 
 **4.Visualization:**
-Uses a React.js-based dashboard to provide real-time visualization of the processed ECG waveform and diagnostic metrics.
+· Uses a React.js-based dashboard to provide real-time visualization of the processed ECG waveform and diagnostic metrics.
 
 
 
 **How to Use ECG2o**
 
+
 **1.Clone the Repository:**
 
 ![image](https://github.com/user-attachments/assets/4d9ba3bd-f6b4-4b2b-9bf1-7eab17847e06)
 
+
+**2.Hardware Setup:**
+
+· Configure your Arduino-ESP8266 module to capture raw ECG data.
+· Ensure the module is connected to your ECG sensors as per the provided schematic.
+
+
+**3.Software Execution:**
+
+· Run the provided Python (or MATLAB) scripts to process the transmitted ECG data.
+· Deploy the React.js dashboard to visualize real-time outputs.
+
+**4.Customization:**
+
+· Modify the processing parameters to suit different noise levels and signal conditions.
+· Extend the machine learning models to incorporate additional diagnostic features.
