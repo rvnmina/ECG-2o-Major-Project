@@ -27,3 +27,12 @@ Applies machine learning models to accurately classify various arrhythmic condit
 
 **4.Visualization:**
 Uses a React.js-based dashboard to provide real-time visualization of the processed ECG waveform and diagnostic metrics.
+
+
+
+**How to Use ECG2o**
+
+**1.Clone the Repository:**
+
+![image](https://github.com/user-attachments/assets/4d9ba3bd-f6b4-4b2b-9bf1-7eab17847e06)
+
