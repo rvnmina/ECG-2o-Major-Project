@@ -1,78 +1,24 @@
-**ECG2o – Advanced ECG Signal Processing and Analysis**
+ECG2o is an innovative project developed by a team of four under the mentorship of Professor [Teacher’s Name]. It is designed to revolutionize cardiac diagnostics by integrating cutting-edge digital signal processing techniques, robust machine learning algorithms, and real-time cloud connectivity. This system processes raw ECG data acquired from an Arduino-ESP8266 module, enabling precise detection and classification of arrhythmic events.
 
 
-**Overview**
-**ECG2o** represents the culmination of our Bachelor’s capstone project. Developed by a team of four under the expert mentorship of Professor [Teacher’s Name], this project advances electrocardiogram (ECG) signal processing through state‑of‑the‑art noise suppression, feature extraction, and classification techniques. Designed with both clinical accuracy and real‑time applicability in mind, ECG2o aspires to contribute meaningfully to cardiac diagnostics and patient monitoring.
+**Project Overview**
 
+**Raw Data Acquisition**: The heart of ECG2o lies in capturing high-fidelity raw ECG signals using an Arduino-ESP8266 platform. This hardware setup enables wireless transmission of the raw data, providing a reliable foundation for subsequent processing steps.
 
+**Advanced Signal Processing**: The acquired data undergoes sophisticated noise suppression and signal enhancement techniques—including digital filtering and wavelet transforms—to isolate critical features such as the QRS complex and R-peaks.
 
-**Background & Motivation**
-Cardiovascular diseases remain one of the leading causes of mortality worldwide. Precise ECG analysis is therefore paramount. ECG2o was conceived to bridge the gap between theoretical signal processing and practical, deployable diagnostic tools. The system harnesses advanced digital filtering and machine learning algorithms to enhance the detection of arrhythmias and other cardiac irregularities. This project not only deepened our technical expertise but also underscored the importance of interdisciplinary collaboration in solving real-world healthcare challenges.
-
+**Machine Learning Integration**: Extracted features are analyzed with advanced machine learning classifiers to detect and categorize arrhythmias with high accuracy.
+**Real-Time Visualization**: Processed data is transmitted to a Firebase cloud backend and displayed on an interactive React.js dashboard, ensuring clinicians have immediate access to actionable diagnostic information.
 
 
 **Technical Architecture**
-The ECG2o system is built upon a modular design comprising the following components:
-
-1. **Signal Acquisition**  
-   High-fidelity electrodes capture raw ECG data, which is then digitized through a custom-designed hardware interface.
-
-2. **Preprocessing Pipeline**  
-   Raw signals are processed using advanced digital filtering techniques and wavelet transforms to mitigate noise and baseline wander.
-
-3. **Feature Extraction**  
-   Both time-domain and frequency-domain analyses isolate critical ECG features—such as the PQRST complex, R-peak detection, and heart rate variability metrics.
-
-4. **Classification & Analysis**  
-   Machine learning classifiers are employed to identify and categorize arrhythmias, ensuring a robust and scalable solution.
-
-5. **Real-Time Monitoring**  
-   An integrated module enables real-time signal analysis, making ECG2o suitable for both laboratory and potential clinical environments.
-
-
-
-**Key Features**
- **Robust Noise Suppression:** Utilizes sophisticated filtering and wavelet-based techniques to ensure high signal integrity.
- **Automated Feature Extraction:** Accurately identifies key ECG components for reliable heart rate and rhythm analysis.
- **Intelligent Classification:** Implements machine learning algorithms to discern and classify various arrhythmias.
- **Modular Architecture:** Designed for scalability and future integration with portable or wearable diagnostic devices.
- **Real-Time Processing:** Provides instantaneous feedback, making it ideal for continuous monitoring applications.
-
-
-
-**Implementation Details**
-**Programming Environment:**  
-  Developed using **Python** and **MATLAB**, leveraging libraries for digital signal processing and machine learning.
-  
-**System Integration:**  
-  Combines offline batch processing with real-time analysis to ensure precision and responsiveness.
-
-**Validation:**  
-  Extensively tested using benchmark ECG datasets, with performance metrics validated against established clinical standards.
-
-**Arduino Integration:**  
-  A dedicated Arduino module is used to interface with the custom hardware for signal acquisition. Sample outputs and real-time results from the Arduino are displayed below.
-
-
-**Team & Acknowledgements**
-This project was realized through the collaborative efforts of four dedicated students with expertise in biomedical engineering, computer science, and electronics. We are immensely grateful to Professor for his invaluable guidance and support throughout the project.
-
-
-**Future Directions**
-ECG2o is an evolving platform with planned enhancements including:
-1.**Integration of Additional Classifiers:** To further boost diagnostic accuracy.
-2.**Expanded Real-Time Processing:** For broader clinical applications.
-3.**Adaptation for Wearable Technology:** Enabling continuous, ambulatory monitoring.
-4.**Open Source Contributions:** Welcoming community involvement and collaborative research.
-
-
-**How to Run ECG2o
-1. **Hardware Setup:**  
-   Connect the ECG electrodes to the custom Arduino interface as per the provided circuit diagram in the `hardware/` folder.
-2. **Software Execution:**  
-   - Run `signal_acquisition.py` to start capturing ECG data.
-   - Execute the MATLAB scripts in `preprocessing_pipeline.m` for signal cleaning and feature extraction.
-   - Train and test the machine learning classifier using `classification_model.py`.
-3. **Real-Time Monitoring:**  
-   Launch the monitoring dashboard by running the integrated real-time module.
-
+**1.Data Acquisition:**
+Utilizes an Arduino-ESP8266 module to capture raw ECG signals.
+Transmits the data wirelessly to a cloud storage solution (Firebase) for real-time processing.
+**2.Preprocessing:**
+Implements state-of-the-art filtering techniques and wavelet-based noise reduction to enhance signal quality.
+**3.Feature Extraction & Classification:
+**Extracts key ECG features (e.g., QRS complex, R-peaks).
+Applies machine learning models to accurately classify various arrhythmic conditions.
+**4.Visualization:**
+Uses a React.js-based dashboard to provide real-time visualization of the processed ECG waveform and diagnostic metrics.
